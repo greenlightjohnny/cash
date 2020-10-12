@@ -15,6 +15,7 @@
     flex: 1;
 
     a {
+      position: relative;
       display: block;
       text-decoration: none;
       color: #fff;
@@ -25,6 +26,16 @@
     }
     a:nth-child(2) {
       margin-left: 24px;
+      color: #beb8b8;
+    }
+
+    .anc:after {
+      content: "";
+      position: absolute;
+      width: 80px;
+      border: 2px solid #09a9a9;
+      bottom: -10px;
+      left: 10px;
     }
   }
 
