@@ -6,6 +6,9 @@ const Header = () => {
   return (
     <>
       <div className={Styles.header}>
+        <nav>
+          <button></button>
+        </nav>
         <div className={Styles.herobg}>
           <img src={Hero} />
           <div className={Styles.title}>
