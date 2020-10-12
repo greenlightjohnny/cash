@@ -5,11 +5,11 @@ import News from "../components/News";
 
 const Homepage = () => {
   return (
-    <div>
+    <>
       <Header />
       <Slider />
       <News />
-    </div>
+    </>
   );
 };
 
