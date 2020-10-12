@@ -28,6 +28,11 @@
       cursor: pointer;
     }
 
+    button:focus,
+    button:active {
+      outline: none;
+    }
+
     button:after {
       content: "";
       position: absolute;
