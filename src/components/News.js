@@ -9,7 +9,7 @@ const News = () => {
         <h4>Recent News</h4>
       </div>
       <div className={Styles.slidercon}>
-        <img src={NewsImage} />
+        <img src={NewsImage} alt="placeholder" />
         <div className={Styles.info}>
           <h4>Join Street Team</h4>
           <p>

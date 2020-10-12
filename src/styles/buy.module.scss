@@ -33,16 +33,21 @@
       content: "";
       position: absolute;
       width: 80px;
-      border: 2px solid #09a9a9;
-      bottom: -10px;
-      left: 10px;
+      border: 1px solid #09a9a9;
+      bottom: -4px;
+      left: 7px;
     }
+  }
+
+  button {
+    cursor: pointer;
   }
 
   .search {
     background-color: #fff;
     height: 60px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 
     input {
       margin-top: 10px;

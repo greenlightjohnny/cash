@@ -20,7 +20,7 @@ const Slider = () => {
       </div>
       <Carousel>
         <div className={Styles.slidercon}>
-          <img src={Slideone} />
+          <img src={Slideone} alt="placeholder" />
           <div className={Styles.info}>
             <h4>Bob Weir and Wolf Bros</h4>
             <p>Fri, Sep 20 • Ventura, CA</p>
@@ -30,7 +30,7 @@ const Slider = () => {
           </div>
         </div>
         <div className={Styles.slidercon}>
-          <img src={Slidetwo} />
+          <img src={Slidetwo} alt="placeholder" />
           <div className={Styles.info}>
             <h4>The Avett Brothers</h4>
             <p>Fri, Sep 20 • Chicago, IL</p>
@@ -40,7 +40,7 @@ const Slider = () => {
           </div>
         </div>
         <div className={Styles.slidercon}>
-          <img src={Slideone} />
+          <img src={Slideone} alt="placeholder" />
           <div className={Styles.info}>
             <h4>Bob Weir and Wolf Bros</h4>
             <p>Fri, Sep 20 • Ventura, CA</p>
@@ -50,7 +50,7 @@ const Slider = () => {
           </div>
         </div>
         <div className={Styles.slidercon}>
-          <img src={Slidetwo} />
+          <img src={Slidetwo} alt="placeholder" />
           <div className={Styles.info}>
             <h4>The Avett Brothers</h4>
             <p>Fri, Sep 20 • Chicago, IL</p>

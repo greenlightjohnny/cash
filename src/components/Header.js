@@ -10,7 +10,7 @@ const Header = () => {
           <button></button>
         </nav>
         <div className={Styles.herobg}>
-          <img src={Hero} />
+          <img src={Hero} alt="placeholder" />
           <div className={Styles.title}>
             <h1>
               Cash<span>or</span>Trade
