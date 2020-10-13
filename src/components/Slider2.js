@@ -8,17 +8,17 @@ import "slick-carousel/slick/slick-theme.css";
 import "../styles/slider2.css";
 
 const Slider2 = () => {
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: `40px`,
-    slidesToShow: 1,
-    speed: 500,
-    draggable: true,
-    dots: true,
-    // dotsClass: "slick-dots slick-thumb",
-  };
+  //   const settings = {
+  //     className: "center",
+  //     centerMode: true,
+  //     infinite: true,
+  //     centerPadding: `40px`,
+  //     slidesToShow: 1,
+  //     speed: 500,
+  //     draggable: true,
+  //     dots: true,
+  //     // dotsClass: "slick-dots slick-thumb",
+  //   };
 
   const settings2 = {
     className: "center",
