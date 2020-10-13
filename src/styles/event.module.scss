@@ -1,0 +1,176 @@
+.event {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  //min-height: 700px;
+  max-width: 900px;
+  margin: 0 auto;
+
+  nav {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    padding: 0;
+    z-index: 3;
+    height: 28px;
+    width: 28px;
+
+    button {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      border-color: transparent;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    button:focus,
+    button:active {
+      outline: none;
+    }
+
+    button:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 28px;
+      border-radius: 20px;
+      height: 3px;
+      color: #fff;
+      background-color: #fff;
+    }
+
+    button::before {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: 7px;
+      width: 21px;
+      border-radius: 20px;
+      height: 3px;
+      color: #fff;
+      background-color: #fff;
+    }
+  }
+
+  .herobg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    img {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .herobg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    //z-index: 2;
+    background: linear-gradient(
+      167.96deg,
+      rgba(9, 169, 169, 0.9) 0%,
+      rgba(162, 0, 166, 0.9) 100%
+    );
+    mix-blend-mode: multiply;
+    border-radius: 0px;
+  }
+
+  .herobg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    //z-index: 2;
+    background: linear-gradient(
+      132.66deg,
+      rgba(9, 169, 169, 0.85) 0%,
+      rgba(162, 0, 166, 0.85) 100%
+    );
+  }
+
+  .title {
+    position: absolute;
+    top: 0;
+    margin-top: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 2;
+
+    h1 {
+      font-family: Helvetica;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #fff;
+      //z-index: 3;
+      span {
+        color: #ccc;
+        font-weight: 100;
+      }
+    }
+    p {
+      margin-top: 0;
+      text-align: left;
+
+      height: 40px;
+      color: #fff;
+      font-size: 14px;
+      line-height: 20px;
+      /* or 143% */
+
+      display: flex;
+      //align-items: center;
+    }
+
+    a {
+      text-align: left;
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .eventInfo {
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    z-index: 2;
+
+    h2 {
+      font-size: 22px;
+      line-height: 24px;
+      color: #fff;
+      font-weight: normal;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 100;
+    }
+  }
+}

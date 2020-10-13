@@ -6,6 +6,7 @@ import Slidetwo from "../images/slidetwo.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/slider2.css";
+import { Link, useLocation } from "react-router-dom";
 
 const Slider2 = () => {
   //   const settings = {
@@ -89,7 +90,18 @@ const Slider2 = () => {
               <h4>Bob Weir and Wolf Bros</h4>
               <p>Fri, Sep 20 • Ventura, CA</p>
               <div className={Styles.infoanchor}>
-                <a href="/">20 sellers</a>
+                <Link
+                  to={{
+                    pathname: "event/Bob-Weir-and-Wolf-Bros",
+                    state: {
+                      name: "Bob Weir and Wolf Bros",
+                      img: "bob",
+                      city: "Fri, Sep 20 • Ventura, CA",
+                    },
+                  }}
+                >
+                  20 sellers
+                </Link>
               </div>
             </div>
           </div>

@@ -1,0 +1,28 @@
+.buyFind {
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+  margin-top: 22px;
+
+  div {
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 32px;
+    }
+
+    a:nith-child(1) {
+      color: #888888;
+    }
+  }
+  div:nth-child(1) {
+    margin-right: 24px;
+  }
+}
+
+.eventSocial {
+  background-color: #f5f5f5;
+  padding: 0px 20px;
+}
