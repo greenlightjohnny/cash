@@ -3,12 +3,16 @@ import Styles from "../styles/event.module.scss";
 
 import { useLocation } from "react-router-dom";
 import EventSocial from "../components/EventSocial";
+import { Helmet } from "react-helmet";
 
 const Event = (props) => {
   const location = useLocation();
 
   return (
-    <div>
+    <>
+      <Helmet>
+        <title>Cash or Trade | {location.state.name}</title>
+      </Helmet>
       <div className={Styles.event}>
         <nav>
           <button></button>
@@ -30,7 +34,7 @@ const Event = (props) => {
         </div>
       </div>
       <EventSocial band={location.state.band} />
-    </div>
+    </>
   );
 };
 

@@ -34,7 +34,7 @@ const Slider2 = () => {
     draggable: true,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 2000,
         settings: {
           className: "center",
           slidesToShow: 3,

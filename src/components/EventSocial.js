@@ -3,7 +3,6 @@ import Styles from "../styles/eventsocial.module.scss";
 
 import MapSellers from "./SellerMap";
 const EventSocial = (props) => {
-  console.log(props);
   const sellerList = [
     {
       title: "Bob Weir and Wolf Bro's- Pair of GA tickets for Friday 9-20-19",
