@@ -1,12 +1,12 @@
 import React from "react";
 import Styles from "../styles/event.module.scss";
-import Hero from "../images/hero.png";
+
 import { useLocation } from "react-router-dom";
 import EventSocial from "../components/EventSocial";
 
 const Event = (props) => {
   const location = useLocation();
-  console.log(location);
+
   return (
     <div>
       <div className={Styles.event}>
@@ -29,7 +29,7 @@ const Event = (props) => {
           </div>
         </div>
       </div>
-      <EventSocial />
+      <EventSocial band={location.state.band} />
     </div>
   );
 };

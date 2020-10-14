@@ -6,7 +6,7 @@ import Slidetwo from "../images/slidetwo.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/slider2.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Slider2 = () => {
   //   const settings = {
@@ -97,6 +97,7 @@ const Slider2 = () => {
                       name: "Bob Weir and Wolf Bros",
                       img: "bob",
                       city: "Fri, Sep 20 • Ventura, CA",
+                      band: "bob",
                     },
                   }}
                 >
@@ -113,7 +114,19 @@ const Slider2 = () => {
               <h4>The Avett Brothers</h4>
               <p>Fri, Sep 20 • Chicago, IL</p>
               <div className={Styles.infoanchor}>
-                <a href="/">10 sellers</a>
+                <Link
+                  to={{
+                    pathname: "event/The-Avett-Brothers",
+                    state: {
+                      name: "The Avett Brothers",
+                      img: "avett",
+                      city: "Fri, Sep 20 • Chicago, IL",
+                      band: "avett",
+                    },
+                  }}
+                >
+                  20 sellers
+                </Link>
               </div>
             </div>
           </div>
@@ -125,7 +138,19 @@ const Slider2 = () => {
               <h4>Bob Weir and Wolf Bros</h4>
               <p>Fri, Sep 20 • Ventura, CA</p>
               <div className={Styles.infoanchor}>
-                <a href="/">20 sellers</a>
+                <Link
+                  to={{
+                    pathname: "event/Bob-Weir-and-Wolf-Bros",
+                    state: {
+                      name: "Bob Weir and Wolf Bros",
+                      img: "bob",
+                      city: "Fri, Sep 20 • Ventura, CA",
+                      band: "bob",
+                    },
+                  }}
+                >
+                  20 sellers
+                </Link>
               </div>
             </div>
           </div>
@@ -137,7 +162,19 @@ const Slider2 = () => {
               <h4>The Avett Brothers</h4>
               <p>Fri, Sep 20 • Chicago, IL</p>
               <div className={Styles.infoanchor}>
-                <a href="/">10 sellers</a>
+                <Link
+                  to={{
+                    pathname: "event/The-Avett-Brothers",
+                    state: {
+                      name: "The Avett Brothers",
+                      img: "avett",
+                      city: "Fri, Sep 20 • Chicago, IL",
+                      band: "avett",
+                    },
+                  }}
+                >
+                  20 sellers
+                </Link>
               </div>
             </div>
           </div>
@@ -149,7 +186,19 @@ const Slider2 = () => {
               <h4>Bob Weir and Wolf Bros</h4>
               <p>Fri, Sep 20 • Ventura, CA</p>
               <div className={Styles.infoanchor}>
-                <a href="/">20 sellers</a>
+                <Link
+                  to={{
+                    pathname: "event/Bob-Weir-and-Wolf-Bros",
+                    state: {
+                      name: "Bob Weir and Wolf Bros",
+                      img: "bob",
+                      city: "Fri, Sep 20 • Ventura, CA",
+                      band: "bob",
+                    },
+                  }}
+                >
+                  20 sellers
+                </Link>
               </div>
             </div>
           </div>
@@ -161,7 +210,19 @@ const Slider2 = () => {
               <h4>The Avett Brothers</h4>
               <p>Fri, Sep 20 • Chicago, IL</p>
               <div className={Styles.infoanchor}>
-                <a href="/">10 sellers</a>
+                <Link
+                  to={{
+                    pathname: "event/The-Avett-Brothers",
+                    state: {
+                      name: "The Avett Brothers",
+                      img: "avett",
+                      city: "Fri, Sep 20 • Chicago, IL",
+                      band: "avett",
+                    },
+                  }}
+                >
+                  20 sellers
+                </Link>
               </div>
             </div>
           </div>
